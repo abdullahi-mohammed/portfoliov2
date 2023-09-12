@@ -26,7 +26,7 @@ import { Autoplay, Navigation, Pagination } from "swiper";
 
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-// import { getAnalytics } from "firebase/analytics";
+import { getAnalytics } from "firebase/analytics";
 import { getRemoteConfig } from "firebase/remote-config";
 import { getValue } from "firebase/remote-config";
 import { fetchAndActivate } from "firebase/remote-config";
