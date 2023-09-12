@@ -1,0 +1,502 @@
+.wrapper {
+  border-left: 1px solid #f4f4f4;
+  font-size: clamp(28px, 2.145vw, 32px);
+  padding: 1.75em;
+}
+
+.header {
+  font-size: clamp(28px, 2.145vw, 32px);
+  font-weight: 700;
+  line-height: 1.03125;
+  letter-spacing: -0.02em;
+  margin-block: 0 1.25em;
+}
+
+.navsWrapper {
+  font-size: clamp(10px, 1.2065vw, 18px);
+  display: flex;
+  align-items: center;
+  color: #b1a3b8;
+  gap: 4.44em;
+  border-bottom: 1px solid #f9f2fc;
+}
+
+.navWrapper {
+  cursor: pointer;
+}
+
+.navWrapperCurrent::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  background: #7614ac;
+  border-radius: 16px;
+}
+
+.nav {
+  margin: 0;
+  font-size: clamp(14px, 1.2065vw, 18px);
+  line-height: 1.44;
+  font-weight: 600;
+  margin-bottom: 0.8888em;
+}
+
+.navCurrent {
+  color: #7614ac;
+}
+
+@media (max-width: 700px) {
+  .wrapper {
+    padding: 18px;
+  }
+}
+
+.changePassword,
+.addBankWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: clamp(10px, 1.2065vw, 18px);
+  margin-top: 2.22em;
+  gap: 24px;
+}
+
+.addBankWrapper {
+  align-items: flex-start;
+  max-width: 974px;
+}
+
+.changePasswordHeader,
+.changePasswordText {
+  margin: 0;
+}
+
+.changePasswordHeader {
+  font-size: clamp(14px, 1.2065vw, 18px);
+  line-height: 1.83;
+  color: #33213d;
+  font-weight: 600;
+  margin-bottom: 1.11em;
+}
+
+.changePasswordText {
+  font-size: clamp(14px, 1.0725vw, 16px);
+  line-height: 1.4375;
+  color: #81668f;
+  font-weight: 400;
+  max-width: 400px;
+}
+
+.bankIcon {
+  width: 48px;
+}
+
+.addBank {
+  border: 1px solid #f9f2fc;
+  padding: 32px;
+  border-radius: 4px;
+  max-width: 422px;
+  min-width: 360px;
+}
+
+.deleteWrapper {
+  border: 1px solid #f9f2fc;
+  padding: 32px;
+  border-radius: 4px;
+  max-width: 422px;
+  min-width: 360px;
+  width: 100%;
+}
+
+.bankHeader {
+  font-size: clamp(14px, 1.0725vw, 16px);
+  line-height: 1.4375;
+  color: #33213d;
+  font-weight: 600;
+  margin-block: 1.5em 1em;
+}
+
+.bankText {
+  font-size: clamp(14px, 1.0725vw, 16px);
+  line-height: 1.4375;
+  font-weight: 400;
+  color: #81668f;
+  margin-block: 0 1.5em;
+}
+
+.banks {
+  font-size: clamp(10px, 1.0725vw, 16px);
+  border-top: 1px solid #f9f2fc;
+  margin-block: 2.5em 0;
+  padding-top: 2.5em;
+  gap: 24px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+/*  */
+
+.ionToolBar {
+  --background: #fff;
+  --padding-start: 0 !important;
+  --padding-end: 0 !important;
+}
+
+.selectBank {
+  border: 1px solid #f9f2fc;
+  overflow: hidden;
+  --inner-border-width: 0;
+}
+
+.accountName {
+  font-size: 12px;
+  line-height: 15px;
+  color: #33213d;
+  text-transform: capitalize;
+}
+
+.donwArrow {
+  width: 20px;
+  color: #81668f;
+}
+
+.bankIcon {
+  width: 72px;
+}
+
+.close {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.linkAccountText {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: -0.02em;
+  color: #81668f;
+}
+
+.bankIconWrapper,
+.bankIconWrapperSuccessful {
+  display: flex;
+}
+
+.bankIconWrapperSuccessful {
+  justify-content: center;
+}
+
+.selectBankFocus {
+  border: 2px solid #7614ac;
+  border-radius: 4px;
+}
+
+.noAccount {
+  margin-block: 0;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  line-height: 1.1875;
+  font-weight: 600;
+  color: brown;
+  height: 100%;
+  padding-inline: 20px;
+}
+
+.content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  background: #c75611;
+  padding: 16px;
+  border-radius: 4px;
+}
+
+.disable {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+.accountDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: clamp(10px, 2.145vw, 32px);
+  gap: 4.90625em;
+  padding: 24px 32px;
+}
+
+.accountNumber {
+  font-size: clamp(14px, 1.0725vw, 16px);
+  line-height: 1.4375;
+  font-weight: 500;
+  color: #4d3659;
+}
+
+.accountDetailsInner {
+  font-size: clamp(14px, 1.0725vw, 16px);
+  display: flex;
+  flex-direction: column;
+  gap: 0.6em;
+}
+
+.accountNameWrapper {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.accountName {
+  font-size: clamp(14px, 1.0725vw, 16px);
+  line-height: 1.4375;
+  color: #796882;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.accountNameIcon {
+  color: #61c690;
+  font-size: 14px;
+}
+
+.accountNameIconError {
+  font-size: 14px;
+  color: #e56a1f;
+}
+
+.accountNameIconLarge {
+  color: #61c690;
+  font-size: 24px;
+}
+
+.accountDetailsWrapper {
+  border: 1px solid #f9f2fc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.selectedbankName,
+.selectedbankNameLight {
+  font-size: 14px;
+  line-height: 17px;
+  color: #33213d;
+}
+
+.accountDetailsMain {
+  display: flex;
+  align-items: center;
+}
+
+.addAnother {
+  margin-top: 16px;
+}
+
+.label {
+  color: #33213d;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  margin-bottom: 5px !important;
+}
+
+.selectedbankNameLight {
+  opacity: 0.5;
+}
+
+.accountDetailsButton {
+  font-size: 14px;
+  line-height: 20px;
+  color: #81668f;
+  background: transparent;
+  padding: 10px;
+  border: 1px solid #f9f2fc;
+  border-radius: 4px;
+}
+
+.toggle {
+  zoom: 0.8;
+}
+
+.defaultWrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 16px 32px;
+  border-bottom: 1px solid #f9f2fc;
+}
+
+.defaultText {
+  font-size: 14px;
+  line-height: 20px;
+  color: #81668f;
+}
+
+.bankDetailsText,
+.bankDetailsHeader,
+.bankDetailsHeaderSuccessful {
+  margin: 0;
+}
+
+.accountNumberWrapper {
+  margin-bottom: 28px;
+}
+
+.bankNameWrapper {
+  margin-bottom: 8px;
+}
+
+.bankDetailsText {
+  font-size: 14px;
+  line-height: 20px;
+  color: #81668f;
+  margin-bottom: 24px;
+}
+
+.bankDetailsHeader,
+.bankDetailsHeaderSuccessful {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  color: #33213d;
+  margin-block: 24px 16px;
+}
+
+.bankDetailsHeaderSuccessful {
+  text-align: center;
+}
+
+.newAccountDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin-right: auto;
+}
+
+.newAccountNumber,
+.newAccountName {
+  margin: 0;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.newAccountName {
+  color: #81668f;
+  text-transform: capitalize;
+}
+
+.newAccountNumber {
+  color: #4d3659;
+  font-weight: 500;
+}
+
+.bankLogo {
+  width: 56px;
+  margin-right: 32px;
+}
+
+.messsageWrapper {
+  margin-top: auto;
+}
+
+.newAccount {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  border: 1px solid #f9f2fc;
+  border-radius: 4px;
+}
+
+.allBanks {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 555px;
+  width: 70%;
+}
+
+.unlinkAlert.alert-message {
+  color: red;
+}
+
+.unlinkAlert .confirmAlert {
+  color: #f03341;
+}
+
+.unlinkAlert .cancelAlert {
+  color: #007aff;
+}
+
+.unlinkAlert.sc-ion-alert-ios-h {
+  --background: rgba(242, 242, 242, 0.8);
+  --backdrop-opacity: var(--ion-backdrop-opacity, 0.63);
+}
+
+.textArea {
+  min-height: 170px;
+  --padding-end: 10px;
+  --padding-start: 10px;
+  --placeholder-opacity: 0.5;
+  border: 1px solid rgb(118, 20, 172);
+  border-radius: 4px;
+  margin-bottom: 24px;
+  font-size: 16px;
+}
+
+.errorMesssage,
+.noErrorMesssage {
+  color: brown;
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.errorMesssage {
+  margin-block: 10px;
+}
+
+.noErrorMesssage {
+  opacity: 0;
+}
+
+@media (max-width: 1000px) {
+  .banks {
+    flex-direction: column;
+  }
+
+  .allBanks,
+  .deleteWrapper {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .changePasswordText {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+  .changePassword,
+  .addBankWrapper {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .changePassword > *,
+  .addBank {
+    max-width: 100%;
+    min-width: 100%;
+  }
+}

@@ -1,0 +1,317 @@
+.giftcardImage {
+  width: 74px;
+}
+
+.topWrapper {
+  font-size: clamp(14px, 1.2065vw, 18px);
+  border: 1px solid #f9f2fc;
+  border-bottom: none;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  padding: 1.3889em 1.83em;
+  gap: 1.33em;
+  margin: 0;
+}
+
+.giftcardName {
+  margin: 0;
+  font-size: clamp(14px, 1.2065vw, 18px);
+  font-weight: 500;
+  line-height: 1.44;
+  color: #33213d;
+}
+
+.cardInfoType {
+  margin: 0;
+  font-size: clamp(14px, 1.0725vw, 16px);
+  line-height: 1.4375;
+  color: #81668f;
+}
+
+.flagWrapper {
+  border-radius: 3px;
+  overflow: hidden;
+  width: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flag {
+  width: 100%;
+}
+
+.countryInfo {
+  display: flex;
+  align-items: center;
+}
+
+.description {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #81668f;
+}
+
+.heading,
+.secondHeading {
+  font-size: clamp(14px, 1.2065vw, 18px);
+  color: #33213d;
+  font-weight: 600;
+  line-height: 1.44;
+  margin: 2.222em 0 1.778em;
+}
+
+.secondHeading {
+  margin: 0;
+}
+
+.line {
+  height: 1px;
+  background: #f9f2fc;
+  margin-top: 24px;
+}
+
+.headingWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block: 24px;
+}
+
+.whatIsThis {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  font-weight: 600;
+  color: #81668f;
+}
+
+.list {
+  padding: 0;
+}
+
+.current {
+  font-weight: 500;
+  color: #33213d;
+}
+
+.countryInfo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: auto;
+}
+
+.countryCode {
+  font-size: clamp(14px, 1.0725vw, 16px);
+  line-height: 1.4375;
+  font-weight: 500;
+  color: #81668f;
+  margin: 0;
+}
+
+.flagWrapper {
+  border-radius: 3px;
+  overflow: hidden;
+  width: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flag {
+  width: 100%;
+}
+
+.ionSegmentButton {
+  width: 50%;
+}
+
+.typeDetails {
+  font-size: 14px;
+  line-height: 20px;
+  margin: 24px 0;
+  color: #81668f;
+}
+
+.cardImage {
+  width: 90%;
+  max-width: 171px;
+  margin-inline: auto;
+}
+
+.ionToolBar {
+  --background: #fff;
+  margin-block: 8px;
+}
+
+.content {
+  --padding-start: 20px;
+  --padding-end: 20px;
+}
+
+.rateWrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.actionWrapper {
+  width: 33.333%;
+}
+
+.rateHeader,
+.rateBody,
+.count {
+  margin: 0;
+  font-size: clamp(14px, 1.0725vw, 16px);
+  line-height: 1.4375;
+  color: #81668f;
+}
+
+.rateBody,
+.rateHeader {
+  width: 33.333%;
+  text-align: center;
+}
+
+.rateBody {
+  font-size: clamp(14px, 1.2065vw, 18px);
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.count,
+.rateBody {
+  margin-top: 0;
+  color: #33213d;
+}
+
+.actionWrapper {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  min-width: 90px;
+}
+
+.rateContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.accountDetails {
+  font-size: 10px;
+}
+
+.amount {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 4px;
+  border-top: 1px solid #f9f2fc;
+  padding-top: 16px;
+  margin-top: 16px;
+}
+
+.rateMainWrapper {
+  padding: 16px;
+  border: 1px solid #f9f2fc;
+  border-top: none;
+  border-radius: 4px;
+}
+
+.amountText,
+.amountPrice {
+  margin: 0;
+}
+
+.amountText {
+  font-size: clamp(14px, 1.2065vw, 18px);
+  line-height: 1.44;
+  color: #81668f;
+}
+
+.amountPrice {
+  font-size: clamp(20px, 1.609vw, 24px);
+  font-weight: 700;
+  line-height: 1.25;
+  color: #7614ac;
+}
+
+/*  */
+
+/*  */
+
+.headerWrapper {
+  font-size: clamp(18px, 1.609vw, 24px);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 1.66em 2.33em;
+}
+
+.bodyWrapper {
+  font-size: clamp(18px, 1.609vw, 24px);
+  padding-inline: 2.33em;
+}
+
+.iosClose {
+  width: clamp(28px, 2.145vw, 32px);
+  margin: 0;
+  cursor: pointer;
+}
+
+.headerTitle,
+.headerBody {
+  margin: 0;
+}
+
+.headerTitle {
+  font-size: clamp(20px, 1.609vw, 24px);
+  font-weight: 700;
+  line-height: 1.25;
+  color: #33213d;
+  margin-bottom: 0.33em;
+}
+
+.headerBody {
+  font-size: clamp(14px, 1.2065vw, 18px);
+  font-weight: 400;
+  line-height: 1.44;
+  color: #81668f;
+}
+
+.headerTop {
+  text-align: center;
+  margin-inline: auto;
+}
+
+.footerWrapper {
+  position: sticky;
+  bottom: 0;
+  margin-top: auto;
+  padding-bottom: 18px;
+  box-shadow: 0px 0px 13px 0px #00000014;
+  z-index: 50;
+  background: #fff;
+}
+
+.mainWrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (max-width: 1120px) {
+  .bodyWrapper,
+  .headerWrapper {
+    padding-inline: 1em;
+  }
+}

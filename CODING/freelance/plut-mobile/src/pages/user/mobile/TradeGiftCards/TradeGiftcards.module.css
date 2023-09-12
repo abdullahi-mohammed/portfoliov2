@@ -1,0 +1,196 @@
+.giftcardImage {
+  width: 63px;
+}
+
+.topWrapper {
+  border: 1px solid #f9f2fc;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.giftcardName {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #33213d;
+}
+
+.formInput {
+  width: 100%;
+}
+
+.rateSelect {
+  max-width: 100%;
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+}
+
+.ionItem {
+  --padding-start: 0;
+  --inner-padding-end: 0;
+}
+
+.cardInfoType {
+  margin: 0;
+  font-size: 12px;
+  line-height: 17px;
+  color: #81668f;
+}
+
+.flagWrapper {
+  border-radius: 3px;
+  overflow: hidden;
+  width: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-right: 16px;
+}
+
+.flag {
+  width: 100%;
+}
+
+.countryInfo {
+  display: flex;
+  align-items: center;
+}
+
+.description {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #81668f;
+  text-transform: capitalize;
+}
+
+.cryptoSymbol {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.45;
+  color: #b1a3b8;
+}
+.loader {
+  position: absolute;
+  top: 50vh;
+  transform: translateY(-50%);
+}
+
+.heading,
+.secondHeading {
+  font-size: 14px;
+  color: #33213d;
+  font-weight: 600;
+  margin: 24px 0 14px;
+}
+
+.secondHeading {
+  margin: 0;
+}
+
+.line {
+  height: 1px;
+  background: #f9f2fc;
+  margin-top: 24px;
+}
+
+.headingWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block: 24px 14px;
+}
+
+.whatIsThis {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  font-weight: 600;
+  color: #81668f;
+}
+
+.list {
+  padding: 0;
+}
+
+.current {
+  font-weight: 500;
+  color: #33213d;
+}
+
+.countryInfo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: auto;
+}
+
+.countryCode {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 17px;
+  color: #81668f;
+  margin: 0;
+}
+
+.flagWrapper {
+  border-radius: 3px;
+  overflow: hidden;
+  width: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flag {
+  width: 100%;
+}
+
+.ionSegmentButton {
+  width: 50%;
+}
+
+.typeDetails {
+  font-size: 14px;
+  line-height: 20px;
+  margin: 24px 0;
+  color: #81668f;
+}
+
+.secondHeadingNotAvailable {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  right: 10%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #cb5531;
+  font-weight: 600;
+  padding: 20px;
+  text-align: center;
+}
+
+.cardImage {
+  width: 90%;
+  max-width: 171px;
+  margin-inline: auto;
+}
+
+.ionToolBar {
+  --background: #fff;
+  margin-block: 8px;
+}
+
+.content {
+  --padding-start: 20px;
+  --padding-end: 20px;
+}

@@ -1,0 +1,15 @@
+.alert-title.sc-ion-alert-ios {
+  color: #000000;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: -0.408px;
+}
+
+.alert-message.sc-ion-alert-ios {
+  color: #000000;
+  font-size: 400;
+  letter-spacing: -0.078px;
+  font-size: 13px;
+  line-height: 18px;
+}

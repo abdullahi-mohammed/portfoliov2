@@ -1,0 +1,111 @@
+.successImage {
+  width: clamp(100px, 8.043vw, 120px);
+  margin-inline: auto;
+}
+
+.heading {
+  font-size: clamp(16px, 1.2065vw, 18px);
+  color: #33213d;
+  font-weight: 600;
+  line-height: 1.44;
+  margin: 1.33em 0 0.889em;
+}
+
+.text,
+.textAccent {
+  margin: 0;
+  padding: 0;
+  font-size: clamp(14px, 1.0725vw, 16px);
+  line-height: 1.45;
+}
+
+.text {
+  color: #81668f;
+}
+
+.textAccent {
+  font-weight: 600;
+  color: #33213d;
+}
+
+.wrapper {
+  font-size: clamp(18px, 1.609vw, 24px);
+  margin-block: 20vh 40px;
+  text-align: center;
+  padding-inline: 2.33em;
+}
+
+.stagesWrapper {
+  font-size: clamp(18px, 1.609vw, 24px);
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-block: 2.33em;
+}
+
+.stages,
+.stagesMiddle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+}
+
+.stages {
+  position: relative;
+  z-index: 10;
+  background: #fff;
+}
+
+.stagesMiddle {
+  position: absolute;
+  width: 100%;
+}
+
+.stage {
+  font-size: clamp(14px, 1.0725vw, 16px);
+  line-height: 1.45;
+  color: #33213d;
+  margin: 0;
+}
+
+.done {
+  min-width: 24px;
+}
+
+.nextWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.next,
+.last {
+  min-width: 24px;
+  min-height: 24px;
+  border-radius: 50%;
+  outline: 1px solid #61c690;
+}
+
+.line,
+.lineRight,
+.lineLeft {
+  width: 100%;
+  height: 1px;
+  background: #61c690;
+}
+
+.lineLeft {
+  background: transparent;
+}
+
+.lineRight {
+  background: #e1dee3;
+}
+
+.last {
+  outline: 1px solid #e1dee3;
+}

@@ -1,0 +1,132 @@
+.ionSegment {
+  border-radius: 34px;
+  overflow: hidden;
+  min-height: 44px;
+  height: 44px;
+  max-height: 44px;
+  display: flex;
+  align-items: center;
+  padding-inline: 2px;
+}
+
+.ionSegmentButton {
+  --border-radius: 34px;
+  --color: #81668f;
+  --color-checked: #33213d;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.214;
+  min-height: 36px;
+  height: 36px;
+  max-height: 36px;
+}
+
+.ionSegmentButton::part(indicator-background) {
+  background-color: #fff !important;
+  box-shadow: none;
+}
+
+.segmentWrapper {
+  padding-bottom: 24px;
+  background: #fff;
+}
+
+.rateImage {
+  width: 32px;
+  margin-right: 16px;
+  border-radius: 4px;
+  margin-block: 16px;
+}
+
+.announcement {
+  font-size: 14px;
+  color: #81668f;
+  line-height: 20px;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.search {
+  padding-block: 0;
+}
+
+.accordion {
+  border-radius: 4px;
+  margin-bottom: 24px;
+  border: 1px solid #f9f2fc;
+}
+
+.accordionHeader.ion-color.ion-color-light {
+  --ion-color-base: #fff !important;
+  --ion-color-base-rgb: 255, 255, 255 !important;
+  --ion-color-shade: #fff !important;
+  --ion-color-tint: #fff !important;
+}
+
+.accordionHeader .ionicon {
+  font-size: 10px !important;
+  color: red !important;
+}
+
+.seeRates {
+  margin: 0;
+  color: #7614ac;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 17px;
+}
+
+.currentRateWrapper {
+  border-top: 1px solid #f9f2fc;
+  padding-inline: 0;
+  margin-inline: 20px;
+}
+
+.currentRate {
+  display: flex;
+}
+
+.currentRateHeader,
+.currentRateRate {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 17px;
+  color: #81668f;
+}
+
+.currentRateRate {
+  color: #33213d;
+  cursor: pointer;
+}
+
+.currentRateWraper:first-child {
+  flex-grow: 1;
+}
+
+.flagWrapper {
+  border-radius: 3px;
+  overflow: hidden;
+  width: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flag {
+  width: 100%;
+}
+
+.countryInfo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.countryCode {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 17px;
+  color: #33213d;
+  margin: 0;
+}

@@ -1,0 +1,10 @@
+ion-button[disabled]:not([disabled="false"]) {
+  --ion-color-base: #f8f7f8 !important;
+  --ion-color-tint: #f8f7f8 !important;
+  --ion-color-contrast: #f8f7f8 !important;
+  --ion-color-shade: #f8f7f8 !important;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.1875;
+  letter-spacing: -0.02em;
+}

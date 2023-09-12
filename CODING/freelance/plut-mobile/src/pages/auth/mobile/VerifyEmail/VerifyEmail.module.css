@@ -1,0 +1,79 @@
+.wrapperInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-inline: 16px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 10px !important;
+  background: transparent !important;
+}
+
+.input {
+  width: 100% !important;
+  max-width: 61px !important;
+  aspect-ratio: 1/1;
+  background: transparent !important;
+  outline: 1px solid #e1dee3 !important;
+  border: none !important;
+  border-radius: 4px !important;
+}
+
+.input:focus,
+.input:active {
+  border: none !important;
+  outline: 1px solid #919090 !important;
+}
+
+.image {
+  width: 90%;
+  /* margin-top: 145px; */
+  margin-top: 12.44vh;
+  max-width: 63px;
+}
+
+.loading {
+  margin-block: 48px;
+  width: 20px;
+}
+
+.resend {
+  font-size: 14px;
+  line-height: 20px;
+  color: #81668f;
+  margin-block: 48px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.resendAccent {
+  font-weight: 600;
+  color: #7614ac;
+}
+
+.title {
+  text-align: center;
+  color: #33213d;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  margin-block: 30px 16px;
+}
+
+.text {
+  color: #81668f;
+  font-size: 14px;
+  line-height: 20px;
+  margin-block: 0 4px;
+  text-align: center;
+}
+
+.textAccent {
+  font-weight: 500;
+  color: #7614ac;
+  margin-bottom: 44px;
+}

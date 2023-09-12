@@ -1,0 +1,61 @@
+.wrapper {
+  border-left: 1px solid #f4f4f4;
+  font-size: clamp(28px, 2.145vw, 32px);
+  padding: 1.75em;
+}
+
+@media (max-width: 700px) {
+  .wrapper {
+    padding: 18px;
+  }
+}
+
+.header {
+  font-size: clamp(28px, 2.145vw, 32px);
+  font-weight: 700;
+  line-height: 1.03125;
+  letter-spacing: -0.02em;
+  margin-block: 0 1em;
+}
+
+.headerText {
+  font-size: clamp(20px, 1.609vw, 24px);
+  font-weight: 400;
+  line-height: 0.75;
+  color: #81668f;
+  margin-block: 0 1.667em;
+}
+
+.giftcards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(17.5em, 1fr));
+  gap: 2.5em;
+  font-size: clamp(14px, 1.0725vw, 16px);
+}
+
+.giftcard,
+.bill {
+  font-size: clamp(12px, 1.0725vw, 16px);
+  padding: 2.625em;
+  background: #f8f7f8;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.giftcardImage,
+.billImage {
+  height: 48px;
+}
+
+.giftcardName {
+  font-size: clamp(14px, 1.0725vw, 16px);
+  line-height: 1.1875;
+  font-weight: 500;
+  color: #33213d;
+  margin: 0;
+}

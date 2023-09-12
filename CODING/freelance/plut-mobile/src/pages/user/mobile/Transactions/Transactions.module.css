@@ -1,0 +1,307 @@
+.cardContainer {
+  position: relative;
+  background: #f9f2fc;
+  height: 164px;
+  border-radius: 4px;
+  overflow: hidden;
+  padding: 24px;
+}
+
+.watermark {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.cardDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardHeader {
+  font-size: 10px;
+  color: #81668f;
+  font-weight: 600;
+  line-height: 12px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.transactionDetailsWrapper {
+  margin-right: 10px;
+}
+
+.cardBalance {
+  color: #7614ac;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.cardOptions {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+.cardOptions > * {
+  flex-basis: 0;
+  flex-grow: 1;
+  width: 50%;
+}
+
+.cardOPtionsButton {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 15px;
+  color: #81668f;
+  background: var(--ion-background-color);
+  border-radius: 30px;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.cardHeaderWrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.icon {
+  cursor: pointer;
+  margin-inline: 6px;
+  color: #81668f;
+}
+
+.optionsIcon {
+  min-width: 12px;
+  max-width: 12px;
+  color: #81668f;
+  --ionicon-stroke-width: 50px;
+}
+
+.accountNumber {
+  border: 1px solid #f9f2fc;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.accountHeading {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #33213d;
+  margin: 0;
+  margin-bottom: 2px;
+}
+
+.accountText {
+  font-size: 12px;
+  line-height: 17px;
+  color: #81668f;
+  margin: 0;
+}
+
+.tradeHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 24px;
+  margin-top: 24px;
+  border-top: 1px solid #f9f2fc;
+}
+
+.seeAllWrapper {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.seeAllIcon {
+  color: #7614ac;
+}
+
+.headerTitle,
+.seeAll {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #33213d;
+}
+
+.seeAll {
+  color: #7614ac;
+}
+
+.ionSegment {
+  border-radius: 34px;
+  overflow: hidden;
+  min-height: 44px;
+  height: 44px;
+  max-height: 44px;
+  display: flex;
+  align-items: center;
+  padding-inline: 2px;
+  background: #f9f2fc66;
+}
+
+.ionSegmentButton {
+  --border-radius: 34px;
+  --color: #81668f;
+  --color-checked: #33213d;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.214;
+  min-height: 36px;
+  height: 36px;
+  max-height: 36px;
+}
+
+.ionSegmentButton::part(indicator-background) {
+  background-color: #fff !important;
+  box-shadow: none;
+}
+
+.segmentWrapper {
+  padding-bottom: 24px;
+  background: #fefcfb;
+}
+
+.transactionsWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 17px;
+  gap: 17px;
+}
+
+.transactionsWrapperInner {
+  border: 1px solid #f9f2fc;
+  border-radius: 4px;
+}
+
+.noTransactions {
+  margin: 0;
+  padding: 24px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #33213d;
+}
+
+.transactionList {
+  margin-top: 14px;
+}
+
+.transaction {
+  display: flex;
+  align-items: center;
+  border-block: 1px solid #f9f2fc;
+  padding-block: 10px;
+  margin-inline: 10px;
+  cursor: pointer;
+}
+
+.transactionAmount,
+.transactionCategory,
+.transactionType {
+  margin: 0;
+}
+
+.transactionAmount {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #33213d;
+}
+
+.transactionTime {
+  text-transform: capitalize;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #9884a4;
+  padding: 16px;
+}
+
+.transactionCategory,
+.transactionType {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 17px;
+  color: #674e74;
+}
+
+.transactionCategory {
+  margin-block: 2px;
+}
+
+.transactionType {
+  font-weight: 400;
+  color: #b1a3b8;
+}
+
+.transactionStatus {
+  margin-left: auto;
+}
+
+.transactionImage {
+  width: 63px;
+  margin-right: 16px;
+}
+
+.cryptoImage {
+  width: 24px;
+}
+
+.cryptoHistoryWrapper {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding-block: 10px;
+  margin-inline: 10px;
+  cursor: pointer;
+}
+
+.borderTop {
+  border-top: 1px solid #f9f2fc;
+}
+
+.cryptoCode {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.cryptoValueHeader,
+.cryptoValueBody {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.45;
+  color: #33213d;
+}
+
+.cryptoValueBody {
+  color: #b1a3b8;
+}
+
+.cryptoCodeLast {
+  margin-left: auto;
+  padding-inline: 5px;
+}
+
+.cryptoSuccess {
+  color: #61c690;
+}
+
+.cryptoPending {
+  color: #e56a1f;
+}
+
+.cryptoFailed {
+  color: #ed4c49;
+}

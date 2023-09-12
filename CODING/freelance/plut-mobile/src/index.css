@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.sc-ion-action-sheet-ios-h {
+  --background: #fff;
+  --button-background: #fff;
+  --button-background-selected: #fff;
+}
+
+.title-default {
+  font-size: 700;
+}

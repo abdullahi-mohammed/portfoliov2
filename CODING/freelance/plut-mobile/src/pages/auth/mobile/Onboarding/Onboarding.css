@@ -1,0 +1,50 @@
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mySwiper {
+  height: auto;
+}
+
+.swiper-pagination-bullet {
+  width: 16px !important;
+  height: 4px !important;
+  border-radius: 4px !important;
+  background-color: #b1a3b8 !important;
+  transform: scale(1) !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #7614ac !important;
+}
+
+.swiper-container {
+  overflow: visible !important;
+}
+
+:root {
+  --swiper-pagination-bullet-horizontal-gap: 2px !important;
+}

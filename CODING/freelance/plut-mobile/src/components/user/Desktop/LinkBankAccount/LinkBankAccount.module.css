@@ -1,0 +1,389 @@
+.header {
+  font-size: 14px;
+  line-height: 20px;
+  color: #81668f;
+  margin: 0;
+}
+
+.linkAccount {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-block: 16px;
+  cursor: pointer;
+  padding-bottom: 16px;
+}
+
+.linkAccountIcon {
+  color: #81668f;
+  font-size: 24px;
+}
+
+.ionToolBar {
+  --background: #fff;
+  --padding-start: 0 !important;
+  --padding-end: 0 !important;
+}
+
+.selectBank {
+  border: 1px solid #f9f2fc;
+  overflow: hidden;
+  --inner-border-width: 0;
+}
+
+.accountName {
+  font-size: 12px;
+  line-height: 15px;
+  color: #33213d;
+  text-transform: capitalize;
+}
+
+.donwArrow {
+  width: 20px;
+  color: #81668f;
+}
+
+.bankIcon {
+  width: clamp(90px, 7.04vw, 105px);
+}
+
+.close {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.linkAccountText {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: -0.02em;
+  color: #81668f;
+}
+
+.bankIconWrapper,
+.bankIconWrapperSuccessful {
+  display: flex;
+}
+
+.selectBankFocus {
+  border: 2px solid #7614ac;
+  border-radius: 4px;
+}
+
+.noAccount {
+  margin: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #33213d;
+}
+
+.content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  background: #c75611;
+  padding: 16px;
+  border-radius: 4px;
+}
+
+.disable {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+.accountDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.accountNumber {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #4d3659;
+}
+
+.accountDetailsInner {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.accountNameWrapper {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.accountName {
+  font-size: 14px;
+  line-height: 20px;
+  color: #796882;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.accountNameIcon {
+  color: #61c690;
+  font-size: 14px;
+}
+
+.accountNameIconError {
+  font-size: 14px;
+  color: #e56a1f;
+}
+
+.accountNameIconLarge {
+  color: #61c690;
+  font-size: 32px;
+}
+
+.accountDetailsWrapper {
+  border-bottom: 1px solid #f9f2fc;
+  padding-block: 24px;
+}
+
+.selectedbankName,
+.selectedbankNameLight {
+  font-size: 14px;
+  line-height: 17px;
+  color: #33213d;
+}
+
+.accountDetailsMain {
+  display: flex;
+  align-items: center;
+}
+
+.addAnother {
+  margin-top: 16px;
+}
+
+.label {
+  color: #33213d;
+  font-size: clamp(14px, 1.0725vw, 16px);
+  line-height: 1.4375;
+  font-weight: 500;
+}
+
+.bankWrapper {
+  margin-bottom: 20px;
+}
+
+.selectedbankNameLight {
+  opacity: 0.5;
+}
+
+.accountDetailsButton {
+  font-size: 14px;
+  line-height: 20px;
+  color: #81668f;
+  background: transparent;
+  padding: 10px;
+  border: 1px solid #f9f2fc;
+  border-radius: 4px;
+}
+
+.toggle {
+  zoom: 0.8;
+}
+
+.defaultWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 14px;
+}
+
+.defaultText {
+  font-size: 14px;
+  line-height: 20px;
+  color: #81668f;
+}
+
+.bankDetailsText,
+.bankDetailsHeader,
+.bankDetailsHeaderSuccessful {
+  margin: 0;
+}
+
+.accountNumberWrapper {
+  margin-bottom: 28px;
+}
+
+.bankNameWrapper {
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  font-size: clamp(14px, 1.0725vw, 16px);
+  gap: 2em;
+}
+
+.bankDetailsText {
+  font-size: clamp(14px, 1.0725vw, 16px);
+  line-height: 1.4375;
+  color: #81668f;
+  margin-bottom: 2em;
+}
+
+.bankDetailsHeader,
+.bankDetailsHeaderSuccessful {
+  font-size: clamp(18px, 1.609vw, 24px);
+  font-weight: 700;
+  line-height: 1.25;
+  color: #33213d;
+  margin-block: 1.667em 0.667em;
+}
+
+.bankDetailsHeaderSuccessful {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.newAccountDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin-right: auto;
+}
+
+.newAccountNumber,
+.newAccountName {
+  margin: 0;
+  font-size: clamp(14px, 1.2065vw, 18px);
+  line-height: 1.44;
+}
+
+.successButtonWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 79px;
+}
+
+.newAccountName {
+  color: #81668f;
+  text-transform: capitalize;
+}
+
+.newAccountNumber {
+  color: #4d3659;
+  font-weight: 500;
+}
+
+.bankLogo {
+  width: 32px;
+  margin-right: 16px;
+}
+
+.messsageWrapper {
+  margin-top: auto;
+}
+
+.newAccount {
+  display: flex;
+  align-items: center;
+  padding: 24px;
+  border: 1px solid #f9f2fc;
+  border-radius: 4px;
+}
+
+.unlinkAlert.alert-message {
+  color: red;
+}
+
+.unlinkAlert .confirmAlert {
+  color: #f03341;
+}
+
+.unlinkAlert .cancelAlert {
+  color: #007aff;
+}
+
+.unlinkAlert.sc-ion-alert-ios-h {
+  --background: rgba(242, 242, 242, 0.8);
+  --backdrop-opacity: var(--ion-backdrop-opacity, 0.63);
+}
+
+/*  */
+
+.headerWrapper {
+  font-size: clamp(18px, 1.609vw, 24px);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 1.66em 2.33em;
+}
+
+.bodyWrapper {
+  padding-inline: 2.33em;
+}
+
+.iosClose {
+  width: clamp(28px, 2.145vw, 32px);
+  margin: 0;
+  cursor: pointer;
+}
+
+.headerTitle,
+.headerBody {
+  margin: 0;
+}
+
+.headerTitle {
+  font-size: clamp(20px, 1.609vw, 24px);
+  font-weight: 700;
+  line-height: 1.25;
+  color: #33213d;
+  margin-bottom: 0.33em;
+}
+
+.headerBody {
+  font-size: clamp(14px, 1.2065vw, 18px);
+  font-weight: 400;
+  line-height: 1.44;
+  color: #81668f;
+}
+
+.headerTop {
+  text-align: center;
+  margin-inline: auto;
+}
+
+.footerWrapper {
+  position: sticky;
+  bottom: 0;
+  margin-top: auto;
+  padding-bottom: 18px;
+  box-shadow: 0px 0px 13px 0px #00000014;
+  z-index: 50;
+  background: #fff;
+}
+
+.mainWrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 40px;
+}
+
+@media (max-width: 1120px) {
+  .bodyWrapper,
+  .headerWrapper {
+    padding-inline: 1em;
+  }
+}

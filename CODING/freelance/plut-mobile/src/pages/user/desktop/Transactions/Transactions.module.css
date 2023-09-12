@@ -1,0 +1,367 @@
+.cardContainer {
+  font-size: clamp(28px, 2.145vw, 32px);
+  position: relative;
+  background: #f9f2fc;
+  border-radius: 4px;
+  overflow: hidden;
+  padding: 1.25em 0.9375em;
+  margin-bottom: 1.75em;
+}
+
+.watermark {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.cardDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardHeader {
+  font-size: 14px;
+  color: #81668f;
+  font-weight: 600;
+  line-height: 1.214;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.cardBalance {
+  color: #7614ac;
+  font-size: clamp(28px, 2.145vw, 32px);
+  font-weight: 700;
+  line-height: 1.25;
+  margin-block: 1em 1.25em;
+}
+
+.cardOptions {
+  font-size: clamp(14px, 1.0725vw, 16px);
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cardOptions > * {
+  flex-basis: 0;
+  flex-grow: 1;
+  width: 50%;
+}
+
+.cardOPtionsButton {
+  font-size: clamp(14px, 1.0725vw, 16px);
+  font-weight: 600;
+  line-height: 1.1875;
+  color: #81668f;
+  background: var(--ion-background-color);
+  border-radius: 1.875em;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.cardHeaderWrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.icon {
+  cursor: pointer;
+  margin-inline: 6px;
+  color: #81668f;
+  font-size: 16px;
+}
+
+.optionsIcon {
+  min-width: 12px;
+  max-width: 12px;
+  color: #81668f;
+  --ionicon-stroke-width: 50px;
+  margin-block: 20px;
+}
+
+.accountNumber {
+  border: 1px solid #f9f2fc;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.accountHeading {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.42857;
+  color: #33213d;
+  margin: 0;
+  margin-bottom: 2px;
+}
+
+.accountText {
+  font-size: 12px;
+  line-height: 17px;
+  color: #81668f;
+  margin: 0;
+}
+
+.tradeHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+.seeAllWrapper {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.seeAllIcon {
+  color: #7614ac;
+}
+
+.headerTitle,
+.seeAll {
+  margin: 0 0 1.33em;
+  font-size: clamp(20px, 1.609vw, 24px);
+  font-weight: 600;
+  line-height: 1.208;
+  color: #33213d;
+}
+
+.seeAll {
+  color: #7614ac;
+}
+
+.ionSegment {
+  border-radius: 34px;
+  overflow: hidden;
+  min-height: 44px;
+  height: 44px;
+  max-height: 44px;
+  display: flex;
+  align-items: center;
+  padding-inline: 2px;
+  background: #f9f2fc66;
+}
+
+.ionSegmentButton {
+  --border-radius: 34px;
+  --color: #81668f;
+  --color-checked: #33213d;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.214;
+  min-height: 36px;
+  height: 36px;
+  max-height: 36px;
+}
+
+.ionSegmentButton::part(indicator-background) {
+  background-color: #fff !important;
+  box-shadow: none;
+}
+
+.segmentWrapper {
+  padding-bottom: 24px;
+  background: #fefcfb;
+}
+
+.transactionsWrapper {
+  font-size: clamp(20px, 1.609vw, 24px);
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.33em;
+  gap: 1.33em;
+}
+
+.transactionsWrapperInner {
+  border: 1px solid #f9f2fc;
+  border-radius: 4px;
+}
+
+.noTransactions {
+  margin: 0;
+  padding: 24px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #33213d;
+}
+
+.transaction {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #f9f2fc;
+  cursor: pointer;
+  font-size: clamp(14px, 1.0725vw, 16px);
+  padding: 2.5em 2em;
+}
+
+.transaction > * {
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+.transactionChip {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.transactionAmount,
+.transactionCategory,
+.transactionType {
+  margin: 0;
+}
+
+.transactionTime {
+  text-transform: capitalize;
+  margin: 0;
+  font-size: clamp(14px, 1.2065vw, 18px);
+  font-weight: 500;
+  line-height: 1.16;
+  color: #33213d;
+  padding: 1.2em 1.77em;
+}
+
+.transactionType {
+  font-size: clamp(14px, 1.0725vw, 16px);
+  font-weight: 500;
+  line-height: 1.16;
+  color: #674e74;
+  text-transform: capitalize;
+}
+
+.transactionType {
+  font-weight: 400;
+  color: #b1a3b8;
+}
+
+.transactionImage,
+.cryptoImage {
+  font-size: clamp(58px, 4.29vw, 64px);
+  width: clamp(56px, 4.29vw, 64px);
+  margin-right: 0.25em;
+}
+
+.borderTop {
+  border-top: 1px solid #f9f2fc;
+}
+
+.transactionDetailsWrapper {
+  font-size: clamp(14px, 1.2065vw, 18px);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.cryptoValueHeader,
+.transactionAmount,
+.transactionCategory {
+  font-weight: 500;
+  font-size: clamp(14px, 1.2065vw, 18px);
+  line-height: 1.16;
+  color: #33213d;
+  margin: 0;
+}
+
+.cryptoValueHeader,
+.transactionAmount {
+  width: 60%;
+  margin-left: 40%;
+}
+
+.cryptoSuccess {
+  color: #61c690;
+}
+
+.cryptoPending {
+  color: #e56a1f;
+}
+
+.cryptoFailed {
+  color: #ed4c49;
+}
+
+/*  */
+
+.wrapper {
+  border-left: 1px solid #f4f4f4;
+  font-size: clamp(28px, 2.145vw, 32px);
+  padding: 1.75em;
+}
+
+@media (max-width: 700px) {
+  .wrapper {
+    padding: 18px;
+  }
+}
+
+.header {
+  font-size: clamp(28px, 2.145vw, 32px);
+  font-weight: 700;
+  line-height: 1.03125;
+  letter-spacing: -0.02em;
+  margin-block: 0 2.03125em;
+}
+
+.bodyWrapper {
+  font-size: clamp(20px, 1.609vw, 24px);
+  border: 1px solid #f2f2f2;
+  padding: 1.667em 1.33em;
+}
+
+.imgStatusWrapper {
+  font-size: clamp(14px, 1.0725vw, 16px);
+  display: flex;
+  align-items: center;
+}
+
+.dateHeader {
+  font-size: clamp(14px, 1.0725vw, 16px);
+  display: flex;
+  justify-content: center;
+  background: #fcfafe;
+  padding: 0.8125em 2em;
+}
+
+.dateHeaderContent:last-child > .dateHeaderContentText {
+  width: 96.875px;
+  margin-left: auto;
+}
+
+.transactionChipInner {
+  width: 96.875px;
+}
+
+.dateHeaderContent:nth-child(2) > .dateHeaderContentText {
+  margin-left: 40%;
+  width: 60%;
+}
+
+.dateHeaderContent {
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+.dateHeaderContentText {
+  font-size: clamp(14px, 1.0725vw, 16px);
+  line-height: 1.1875;
+  font-weight: 500;
+  margin: 0;
+  color: #81668f;
+}
+
+@media (max-width: 900px) {
+  .transactionAmountWrapper {
+    display: none;
+  }
+
+  .dateHeaderContent:nth-child(2) {
+    display: none;
+  }
+}

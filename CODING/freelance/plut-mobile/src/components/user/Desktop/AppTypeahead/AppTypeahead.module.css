@@ -1,0 +1,102 @@
+.ionToolBar {
+  --background: #fff;
+  --padding-start: 0 !important;
+  --padding-end: 0 !important;
+}
+
+.ionItem {
+  --padding-start: 0;
+  --inner-padding-end: 0;
+}
+
+.description {
+  margin: 0;
+  font-size: clamp(14px, 1.0725vw, 16px);
+  line-height: 1.45;
+  font-weight: 400;
+  color: #81668f;
+}
+
+.current {
+  font-weight: 500;
+  color: #33213d;
+}
+
+.searchWrapper {
+  padding-bottom: 0 !important;
+  --padding-bottom: 0 !important;
+}
+
+.close {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/*  */
+
+.headerWrapper {
+  font-size: clamp(18px, 1.609vw, 24px);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 1.66em;
+}
+
+.bodyWrapper {
+  padding-inline: 1.66em;
+}
+
+.iosClose {
+  width: clamp(28px, 2.145vw, 32px);
+  margin: 0;
+  cursor: pointer;
+}
+
+.headerTitle,
+.headerBody {
+  margin: 0;
+}
+
+.headerTitle {
+  font-size: clamp(20px, 1.609vw, 24px);
+  font-weight: 700;
+  line-height: 1.25;
+  color: #33213d;
+  margin-bottom: 0.33em;
+}
+
+.headerBody {
+  font-size: clamp(14px, 1.2065vw, 18px);
+  font-weight: 400;
+  line-height: 1.44;
+  color: #81668f;
+}
+
+.headerTop {
+  text-align: center;
+  margin-inline: auto;
+}
+
+.footerWrapper {
+  position: sticky;
+  bottom: 0;
+  margin-top: auto;
+  padding-bottom: 18px;
+  box-shadow: 0px 0px 13px 0px #00000014;
+  z-index: 50;
+  background: #fff;
+}
+
+.mainWrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (max-width: 1120px) {
+  .bodyWrapper,
+  .headerWrapper {
+    padding-inline: 1em;
+  }
+}

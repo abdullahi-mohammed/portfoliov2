@@ -1,0 +1,80 @@
+.tabBar {
+  --background: #fff;
+  box-shadow: 0px -1px 4px rgba(187, 187, 187, 0.25);
+  padding: 5px;
+}
+
+.tabBarIcon {
+  width: 24px;
+  margin-bottom: 2px;
+}
+
+.label {
+  font-size: 10px;
+}
+
+.desktopLayout {
+  display: flex;
+  width: 100%;
+}
+
+.bodyWrapper {
+  flex-grow: 1;
+  border-left: 1px solid #f4f4f4;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  border-bottom: 1px solid #f4f4f4;
+  padding: 2.214em 4em;
+  font-size: clamp(10px, 0.939vw, 14px);
+  position: sticky;
+  background: #fff;
+  top: 0;
+  z-index: 9999;
+}
+
+.searchWrapper {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.searchIcon {
+  height: clamp(20px, 1.609vw, 24px);
+  color: #81668f;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  font-size: clamp(14px, 1.2065vw, 18px);
+  gap: 1.778em;
+}
+
+.profileImg {
+  width: clamp(38px, 3.218vw, 48px);
+  cursor: pointer;
+}
+
+.notificationIcon {
+  width: clamp(35px, 2.95vw, 44px);
+  cursor: pointer;
+}
+
+.input {
+  font-size: clamp(14px, 1.2065vw, 18px);
+  font-weight: 400;
+  line-height: 1;
+  color: #a8a1ab;
+  width: min(70%, 300px);
+}
+
+.ionMenu {
+  background: #49494999;
+  --width: max(38vw, 400px);
+}

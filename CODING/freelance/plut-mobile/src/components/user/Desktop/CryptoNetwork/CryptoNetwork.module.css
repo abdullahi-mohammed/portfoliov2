@@ -1,0 +1,136 @@
+.scanAddress {
+  width: 120px;
+  font-size: clamp(14px, 1.0725vw, 16px);
+  margin-block: 0 1em;
+}
+
+.scanAddressWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.adderessWrapper {
+  cursor: pointer;
+}
+
+.cryptoHeaderText {
+  font-weight: 400;
+  font-size: clamp(14px, 1.2065vw, 18px);
+  line-height: 1.45;
+  text-align: center;
+  color: #81668f;
+  margin: 0 0 3.05em 0;
+}
+
+.ionList {
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.heading,
+.secondHeading {
+  font-size: clamp(14px, 1.2065vw, 18px);
+  color: #33213d;
+  font-weight: 600;
+  line-height: 1.44;
+  margin: 1.33em 0 0.778em;
+}
+
+.secondHeading {
+  margin: 0;
+}
+
+.adderessWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.networkHeadingWrapper {
+  margin-top: 15px;
+}
+
+.adderess {
+  font-weight: 400;
+  font-size: clamp(13px, 1.0725vw, 16px);
+  line-height: 1.45;
+  color: #b1a3b8;
+  margin: 0;
+}
+
+.copy {
+  font-size: 20px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+/*  */
+
+.headerWrapper {
+  font-size: clamp(18px, 1.609vw, 24px);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 1.66em 2.33em;
+}
+
+.bodyWrapper {
+  padding-inline: 2.33em;
+}
+
+.iosClose {
+  width: clamp(28px, 2.145vw, 32px);
+  margin: 0;
+  cursor: pointer;
+}
+
+.headerTitle,
+.headerBody {
+  margin: 0;
+}
+
+.headerTitle {
+  font-size: clamp(20px, 1.609vw, 24px);
+  font-weight: 700;
+  line-height: 1.25;
+  color: #33213d;
+  margin-bottom: 0.33em;
+}
+
+.headerBody {
+  font-size: clamp(14px, 1.2065vw, 18px);
+  font-weight: 400;
+  line-height: 1.44;
+  color: #81668f;
+}
+
+.headerTop {
+  text-align: center;
+  margin-inline: auto;
+}
+
+.footerWrapper {
+  position: sticky;
+  bottom: 0;
+  margin-top: auto;
+  padding-bottom: 18px;
+  box-shadow: 0px 0px 13px 0px #00000014;
+  z-index: 50;
+  background: #fff;
+}
+
+.mainWrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (max-width: 1120px) {
+  .bodyWrapper,
+  .headerWrapper {
+    padding-inline: 1em;
+  }
+}

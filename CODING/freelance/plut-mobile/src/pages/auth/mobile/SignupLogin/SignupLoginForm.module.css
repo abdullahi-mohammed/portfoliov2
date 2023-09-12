@@ -1,0 +1,154 @@
+.ionToolBar {
+  --background: #fefcfb;
+  padding-bottom: 24px;
+}
+
+.proceed {
+  font-size: 12px;
+  line-height: 18px;
+  color: #81668f;
+  margin: 0 0 24px !important;
+}
+
+.proceedAccent {
+  font-weight: 500;
+  color: #7614ac;
+  border-bottom: 1px solid #7614ac;
+  margin: 0 !important;
+}
+
+.white {
+  --background: #fff;
+}
+
+.optionText {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: -0.02em;
+  color: #33213d;
+}
+
+.forgotPassword {
+  color: #7614ac;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  align-self: flex-end;
+  padding: 5px;
+  margin-top: -5px;
+}
+
+.errorMesssage,
+.noErrorMesssage {
+  color: brown;
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.noErrorMesssage {
+  opacity: 0;
+}
+
+.backButton {
+  display: block;
+  --background-hover: inherit !important;
+  --padding-top: 16px;
+  --padding-left: 0;
+  padding-left: 5px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+}
+
+.optionLine {
+  width: 100%;
+  height: 1px;
+  background-color: #f9f2fc;
+}
+
+.headerTitle {
+  position: absolute;
+  top: 8px;
+  /* transform: ; */
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.topWrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #372c3d;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.ionSegment {
+  border-radius: 34px;
+  overflow: hidden;
+  min-height: 44px;
+  height: 44px;
+  max-height: 44px;
+  display: flex;
+  align-items: center;
+  padding-inline: 2px;
+}
+
+.ionSegmentButton {
+  --border-radius: 34px;
+  --color: #81668f;
+  --color-checked: #33213d;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.214;
+  min-height: 36px;
+  height: 36px;
+  max-height: 36px;
+}
+
+@media (max-width: 360px) {
+  .ionSegmentLabel {
+    font-size: 12px;
+  }
+}
+
+.ionSegmentButton::part(indicator-background) {
+  background-color: #fff !important;
+  box-shadow: none;
+}
+
+.segmentWrapper {
+  padding-bottom: 24px;
+  background: #fefcfb;
+}
+
+.ionFooter {
+  --background: #fff;
+  --padding-start: 0;
+  --padding-end: 0;
+}
+
+.formsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  /* margin-block: 46px 10px;  */
+  margin-top: 0;
+}

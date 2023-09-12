@@ -1,0 +1,64 @@
+.cryptoHeaderText {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.45;
+  text-align: center;
+  color: #81668f;
+  margin: 0 0 55px 0;
+}
+
+.heading {
+  font-size: 14px;
+  color: #33213d;
+  font-weight: 400;
+  margin: 0 0 5px 0;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.iconWrapper {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.cryptoSymbol {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.45;
+  color: #b1a3b8;
+}
+
+.cryptoInput {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.45;
+  margin-inline: 5px;
+}
+
+.cryptoValue {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.45;
+  color: #33213d;
+  margin: 25px 0;
+  text-align: center;
+}
+
+.iconRight {
+  width: 15px;
+  color: #b1a3b8;
+}
+
+.rateSelect {
+  max-width: 100%;
+}
+
+.rateSelect::part(icon) {
+  margin-left: 5px !important;
+}
