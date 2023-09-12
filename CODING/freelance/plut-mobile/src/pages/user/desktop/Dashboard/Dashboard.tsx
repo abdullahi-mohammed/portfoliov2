@@ -26,7 +26,7 @@ import { Autoplay, Navigation, Pagination } from "swiper";
 
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
+// import { getAnalytics } from "firebase/analytics";
 import { getRemoteConfig } from "firebase/remote-config";
 import { getValue } from "firebase/remote-config";
 import { fetchAndActivate } from "firebase/remote-config";
@@ -54,24 +54,20 @@ export default function Dashboard({
 
 
   //Dashboard Remote Config
-  const [sellCryptoCurrencyToggle, setSellCryptoCurrencyToggle] = useState(true)
-  const [sellGiftcardToggle, setSellGiftcardToggle] = useState(true)
+  const [sellCryptoCurrencyToggle, setSellCryptoCurrencyToggle] = useState(false)
+  const [sellGiftcardToggle, setSellGiftcardToggle] = useState(false)
 
   const [sellGiftCardTitle, setSellGiftCardTitle] = useState('')
   const [sellCryptoTitle, setSellCryptoTitle] = useState('')
 
-  const [carouselToggle, setCarouselToggle] = useState(true)
-  const [modalPopOver, setModalPopOver] = useState(true)
+  const [carouselToggle, setCarouselToggle] = useState(false)
+  const [modalPopOver, setModalPopOver] = useState(false)
 
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
+  // const analytics = getAnalytics(app);
   // Initialize Remote Config and get a reference to the service
   const remoteConfig = getRemoteConfig(app);
-  // const remoteConfig = FirebaseRemoteConfig.getInstance();
-  // const myParameter = remoteConfig.getString("dashboardSellCryptocurrency");
-
-  // console.log(myParameter)
 
   useEffect(() => {
     (async function () {
@@ -109,17 +105,6 @@ export default function Dashboard({
 
       setCarouselToggle(carouselToggle)
       setModalPopOver(WelcomeModalToggle)
-      // console.log(carouselToggle, 'carouseltggle');
-      // console.log(sellGiftCardTitleVal, 'sellGiftCardTitleVal');
-      // console.log(WelcomeModalToggle, 'WelcomeModalToggle');
-      // console.log(sellCryptocurrencyTitleVal, 'sellCryptocurrencyTitleVal');
-      // console.log(sellGiftCardToggle, 'sellGiftCardVal');
-      // console.log(sellCryptoCurrencyToggle, 'sellCryptoCurrencyToggle');
-
-
-      // console.log(sellGiftCardTitleVal, sellCryptocurrencyTitleVal, 'response');
-      // console.log('rerendering');
-
 
     })()
   }, [])
