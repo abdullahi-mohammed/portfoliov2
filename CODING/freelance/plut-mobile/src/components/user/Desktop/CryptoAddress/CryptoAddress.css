@@ -1,7 +1,0 @@
-@media (min-width: 601px) {
-  .modal-default {
-    justify-content: flex-end;
-    --width: max(38vw, 400px);
-    align-items: flex-end;
-  }
-}
