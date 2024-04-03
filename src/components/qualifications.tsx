@@ -14,6 +14,7 @@ import typescript from '../assets/typescript-original.svg'
 import figma from '../assets/figma-original.svg'
 import git from '../assets/git-original.svg'
 import github from '../assets/github-_1_.svg'
+import graphql from '../assets/graphql-plain.svg'
 import IconCard from './iconCard';
 
 const Qualifications = () => {
@@ -92,6 +93,10 @@ const Qualifications = () => {
         {
             title: "GitHub",
             image: github
+        },
+        {
+            title: "Graphql",
+            image: graphql
         }
     ]
 

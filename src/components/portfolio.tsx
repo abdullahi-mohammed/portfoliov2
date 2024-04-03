@@ -1,5 +1,5 @@
 import Card from "./card"
-import htmldemo from "../assets/HTMLDemo.png";
+// import htmldemo from "../assets/HTMLDemo.png";
 import wowtouche from '../assets/wowtouche.png'
 import burgerapp from "../assets/burgerapp.png";
 import greencandlestick from "../assets/greencandlestick.png";
