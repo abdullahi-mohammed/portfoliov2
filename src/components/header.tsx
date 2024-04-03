@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import arrowUpRight from '../assets/arrow-up-right-01.png'
 import darkMode from '../assets/light-mode_svgrepo.com (2).png'
-// import lightMode from '../assets/light-mode_svgrepo.com.png'
+import lightMode from '../../public/'
 
 import { Link } from 'react-scroll';
 
@@ -96,7 +96,7 @@ const Header = () => {
             </ul>
 
             <ul className="dark:bg-[#030303] relative mt-16 md:mt-0 dark:text-white bg-[#dedede] text-[#030303] flex justify-between items-center gap-5 px-12 py-3 rounded-lg border-solid border">
-                <li><a className="flex items-center justify-center gap-1 px-2 py-1 rounded-md bg-[#9410D2]" href="#"><p>Resume</p> <img className="w-5" src={arrowUpRight} alt="" /></a></li>
+                <li><a className="flex items-center justify-center gap-1 px-2 py-1 rounded-md bg-[#9410D2]" href='/abdullahi-cv' download='abdullahi-cv.pdf' target="_blank"><p>Resume</p> <img className="w-5" src={arrowUpRight} alt="" /></a></li>
                 <li><button className="m-auto p-1 rounded-md bg-[#9410D2]" onClick={() => {
                     setTheme(prev => prev == "" ? "dark" : "")
                 }}><img src={darkMode} alt="" /> </button></li>
