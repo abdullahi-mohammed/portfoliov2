@@ -97,7 +97,7 @@ const Qualifications = () => {
 
     return (
         // <Element name="qualifications" className="element">
-        <section id="qualifications" className="mt-20 scroll-mt-[120px]">
+        <section id="qualifications" className="mt-10 md:mt-20 scroll-mt-[120px]">
             <div>
                 <div>
                     <p>My Skills</p>
@@ -110,7 +110,7 @@ const Qualifications = () => {
             <Card dataAos="slide-up" className="mt-5">
                 <div>
                     <div className="flex items-center justify-between">
-                        <h4><span className="font-semibold text-[20px]">Frontend Development -</span> Udemy 2022</h4>
+                        <h4><span className="font-semibold text-[18px] md:text-[20px]">Frontend Development -</span> Udemy 2022</h4>
                         <p className="px-2 py-1 rounded-md bg-[#9410D2] w-fit">Expert</p>
                     </div>
                     <div className="mt-8">

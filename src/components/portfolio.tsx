@@ -52,10 +52,10 @@ const Portfolio = () => {
     ]
 
     return (
-        <section id="portfolio" className="mt-20 scroll-mt-[120px]">
+        <section id="portfolio" className="mt-10 md:mt-20 scroll-mt-[120px]">
             <div>
                 <p>Projects Done</p>
-                <h1 className="font-bold text-[24px]">Portfolio</h1>
+                <h1 className="font-bold text-[20px] md:text-[24px]">Portfolio</h1>
             </div>
             <div className="flex mt-5 justify-between flex-wrap gap-2 gap-y-5">
                 {

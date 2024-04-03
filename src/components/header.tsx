@@ -50,7 +50,7 @@ const Header = () => {
     return (
         <header className="z-[99999] md:sticky top-5 md:flex justify-between items-center md:gap-24">
 
-            <ul className="z-10 hover:text-[#9410D2] md:relative fixed left-7 right-8 md:left-auto md:right-auto top-5 md:top-0 dark:bg-[#030303] dark:text-white bg-[#dedede] text-[#030303] flex flex-1 justify-between items-center md:px-12 md:py-3 p-3 rounded-lg border-solid border">
+            <ul className="z-10 hover:text-[#9410D2] md:relative fixed right-[4%] left-[4%] md:left-auto md:right-auto top-5 md:top-0 dark:bg-[#030303] dark:text-white bg-[#dedede] text-[#030303] flex flex-1 justify-between items-center md:px-12 md:py-3 p-3 rounded-lg border-solid border">
                 <li><Link
                     activeClass="active"
                     to="about"

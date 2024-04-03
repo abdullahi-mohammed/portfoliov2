@@ -3,7 +3,7 @@ import Card from "./card";
 
 const Contact = () => {
     return (
-        <section id="contact" className="mt-20">
+        <section id="contact" className="mt-10 md:mt-20">
             <h4>Connect with me through:</h4>
             <ul className="flex flex-wrap gap-5 mt-5">
                 <li><a href="https://github.com/mabdul45" target="_blank">
