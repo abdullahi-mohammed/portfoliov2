@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import arrowUpRight from '../assets/arrow-up-right-01.png'
 import darkMode from '../assets/light-mode_svgrepo.com (2).png'
-import lightMode from '../../public/'
+// import lightMode from '../../public/'
 
 import { Link } from 'react-scroll';
 
