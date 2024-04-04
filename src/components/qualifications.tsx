@@ -120,7 +120,7 @@ const Qualifications = () => {
                     </div>
                     <div className="mt-8">
                         <p>Technologies Used</p>
-                        <ul className="mt-5 flex flex-wrap gap-3 items-center">
+                        <ul className="mt-3 md:mt-5 flex flex-wrap gap-3 items-center">
                             {frontendTechnologies.map((tech, i) =>
                                 <li key={i} className="flex items-center gap-2 select-none"><IconCard src={tech.image}>{tech.title}</IconCard></li>
                             )}
@@ -136,7 +136,7 @@ const Qualifications = () => {
                     </div>
                     <div className="mt-8">
                         <p>Technologies Used</p>
-                        <ul className="mt-5 flex flex-wrap gap-3 items-center">
+                        <ul className="mt-3 md:mt-5 flex flex-wrap gap-3 items-center">
                             {backendTechnologies.map((tech, i) =>
                                 <li key={i} className="flex items-center gap-2 select-none"><IconCard src={tech.image}>{tech.title}</IconCard></li>
                             )}
@@ -152,7 +152,7 @@ const Qualifications = () => {
                     </div>
                     <div className="mt-8">
                         <p>Technologies Used</p>
-                        <ul className="mt-5 flex gap-3 flex-wrap items-center">
+                        <ul className="mt-3 md:mt-5 flex gap-3 flex-wrap items-center">
                             {otherTools.map((tech, i) =>
                                 <li key={i} className="flex items-center gap-2 select-none"><IconCard src={tech.image}>{tech.title}</IconCard></li>
                             )}
