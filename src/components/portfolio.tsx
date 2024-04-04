@@ -65,12 +65,12 @@ const Portfolio = () => {
                             <img className="rounded-lg object-cover" src={project.image} alt="" />
                             <h4 className="font-bold">{project.heading}</h4>
                             <p>{project.paragraph}</p>
-                            <ul className="flex gap-2">
+                            <ul className="flex flex-wrap gap-2">
                                 {project.stacks.map((stack, i) => {
                                     return <li className="dark:bg-[#161616] dark:text-white bg-[#bebebe] text-[#030303] text-[14px] rounded-lg py-1 px-2" key={i}>{stack.stack}</li>
                                 })}
                             </ul>
-                            <div className="flex justify-between items-center mt-auto">
+                            <div className="flex justify-between items-center mt-2">
                                 {project.links.map((link, i) => {
                                     return <a className="hover:underline" href={link.link} target="_blank" key={i}>{link.title}</a>
                                 })}
