@@ -115,7 +115,7 @@ const Qualifications = () => {
             <Card dataAos="slide-up" className="mt-5">
                 <div>
                     <div className="flex items-center justify-between">
-                        <h4><span className="font-semibold text-[18px] md:text-[20px]">Frontend Development -</span> Udemy 2022</h4>
+                        <h4><span className="font-semibold text-[16px] md:text-[20px]">Frontend Development -</span> Udemy 2022</h4>
                         <p className="px-2 py-1 rounded-md bg-[#9410D2] w-fit">Expert</p>
                     </div>
                     <div className="mt-8">
@@ -131,7 +131,7 @@ const Qualifications = () => {
             <Card dataAos="slide-up" className="mt-5">
                 <div>
                     <div className="flex items-center justify-between">
-                        <h4><span className="font-semibold text-[20px]">Backend Development -</span> Udemy 2023</h4>
+                        <h4><span className="font-semibold text-[16px] md:text-[20px]">Backend Development -</span> Udemy 2023</h4>
                         <p className="px-2 py-1 rounded-md bg-[#9410D2] w-fit">Expert</p>
                     </div>
                     <div className="mt-8">
@@ -147,7 +147,7 @@ const Qualifications = () => {
             <Card dataAos="slide-up" className="mt-5">
                 <div>
                     <div className="flex items-center justify-between">
-                        <h4 className="font-semibold text-[20px]">Other tools used in development</h4>
+                        <h4 className="font-semibold text-[16px] md:text-[20px]">Other Development Tools</h4>
                         <p className="px-2 py-1 rounded-md bg-[#9410D2] w-fit">Expert</p>
                     </div>
                     <div className="mt-8">
