@@ -18,9 +18,9 @@ const Portfolio = () => {
     }, {
         heading: "Burger Builder",
         image: burgerapp,
-        paragraph: "i built this app when i was learning react from jonas schmedtmann course.",
+        paragraph: "I built this app when i was learning react from Jonas Schmedtmann course.",
         stacks: [{ stack: "react" }, { stack: "firebase" }],
-        links: [{ title: "GitHub", link: "https://github.com/mabdul45/burger-app" }, { title: "Website", link: "https://burger-app-delta.vercel.app/" }]
+        links: [{ title: "GitHub", link: "https://github.com/abdullahi-mohammed/burger-app" }, { title: "Website", link: "https://burger-app-delta.vercel.app/" }]
     },
     {
         heading: "Green Candle Stick",
@@ -32,21 +32,21 @@ const Portfolio = () => {
     {
         heading: "Tip Calculator",
         image: tipcalculator,
-        paragraph: "tip calcultor is a web app that is used to calculate individual tips based on input. it's built from frontend mentor.",
+        paragraph: "Tip calcultor is a web app that is used to calculate individual tips based on input. it's built from frontend mentor.",
         stacks: [{ stack: "react" }],
-        links: [{ title: "GitHub", link: "https://github.com/mabdul45/tip-calculator" }, { title: "Website", link: "https://tip-calculator-mabdul45.vercel.app/" }]
+        links: [{ title: "GitHub", link: "https://github.com/abdullahi-mohammed/tip-calculator" }, { title: "Website", link: "https://tip-calculator-mabdul45.vercel.app/" }]
     },
     {
         heading: "Breej",
         image: breej,
-        paragraph: "breej is a platform for freelancers. it's not only for selling of services but also products. I helped built the buying and swapping features of this website.",
+        paragraph: "Breej is a platform for freelancers. it's not only for selling of services but also products. I helped built the buying and swapping features of this website.",
         stacks: [{ stack: "Next.js" }, { stack: "TypeScript" }, { stack: "TailwindCSS" }],
         links: [{ title: "GitHub: private repo", link: "#" }, { title: "Website", link: "https://breej.io/" }]
     },
     {
         heading: "Plut",
         image: plut,
-        paragraph: "plut is a platform for selling giftcards and coins. I helped integrate content management sysytem into this website whiich made it possible for the client to be able to change contents on the website easily.",
+        paragraph: "Plut is a platform for selling giftcards and coins. I helped integrate content management sysytem into this website whiich made it possible for the client to be able to change contents on the website easily.",
         stacks: [{ stack: "React.js" }, { stack: "TypesScript" }, { stack: "Ionic Framework" }, { stack: "Firebase" }],
         links: [{ title: "GitHub: private repo", link: "#" }, { title: "Website", link: "https://plut.ng/" }]
     },
