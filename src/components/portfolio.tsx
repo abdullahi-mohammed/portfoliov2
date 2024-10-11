@@ -35,7 +35,7 @@ const Portfolio = () => {
         image: mortgage,
         paragraph: "Mortgage calcultor is a web app that is used to calculate individual Mortgage based on input. it's built from frontend mentor.",
         stacks: [{ stack: "vue" }],
-        links: [{ title: "GitHub", link: "https://github.com/abdullahi-mohammed/mortgage-calculator" }, { title: "Website", link: "https://vercel.live/link/mortgage-calculator-one-steel.vercel.app?via=project-dashboard-alias-list&p=1" }]
+        links: [{ title: "GitHub", link: "https://github.com/abdullahi-mohammed/mortgage-calculator" }, { title: "Website", link: "https://mortgage-calculator-one-steel.vercel.app/" }]
     },
     {
         heading: "Breej",
