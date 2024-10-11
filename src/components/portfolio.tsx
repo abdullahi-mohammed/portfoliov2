@@ -5,6 +5,7 @@ import burgerapp from "../assets/burgerapp.png";
 import greencandlestick from "../assets/greencandlestick.png";
 import breej from "../assets/breej.png";
 import tipcalculator from "../assets/tipcalculator.png";
+import mortgage from "../assets/Screenshot (100).png";
 import plut from "../assets/plut.png";
 
 const Portfolio = () => {
@@ -30,11 +31,11 @@ const Portfolio = () => {
         links: [{ title: "GitHub", link: "https://github.com/mabdul45/green-candle-stick-demo" }, { title: "Website", link: "https://green-candle-stick-demo.vercel.app/" }]
     },
     {
-        heading: "Tip Calculator",
-        image: tipcalculator,
-        paragraph: "Tip calcultor is a web app that is used to calculate individual tips based on input. it's built from frontend mentor.",
-        stacks: [{ stack: "react" }],
-        links: [{ title: "GitHub", link: "https://github.com/abdullahi-mohammed/tip-calculator" }, { title: "Website", link: "https://tip-calculator-mabdul45.vercel.app/" }]
+        heading: "mortgage Calculator",
+        image: mortgage,
+        paragraph: "Mortgage calcultor is a web app that is used to calculate individual Mortgage based on input. it's built from frontend mentor.",
+        stacks: [{ stack: "vue" }],
+        links: [{ title: "GitHub", link: "https://github.com/abdullahi-mohammed/mortgage-calculator" }, { title: "Website", link: "https://vercel.live/link/mortgage-calculator-one-steel.vercel.app?via=project-dashboard-alias-list&p=1" }]
     },
     {
         heading: "Breej",
