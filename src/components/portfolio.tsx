@@ -4,8 +4,7 @@ import wowtouche from '../assets/wowtouche.png'
 import burgerapp from "../assets/burgerapp.png";
 import greencandlestick from "../assets/greencandlestick.png";
 import breej from "../assets/breej.png";
-import tipcalculator from "../assets/tipcalculator.png";
-import mortgage from "../assets/Screenshot (100).png";
+import mortgage from "../assets//Screenshot (101).png";
 import plut from "../assets/plut.png";
 
 const Portfolio = () => {
