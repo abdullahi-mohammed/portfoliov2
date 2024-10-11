@@ -15,6 +15,15 @@ import figma from '../assets/figma-original.svg'
 import git from '../assets/git-original.svg'
 import github from '../assets/github-_1_.svg'
 import graphql from '../assets/graphql-plain.svg'
+import ethIcon from '../assets/ethereum-eth-logo.svg'
+import tonIcon from '../assets/toncoin-ton-logo.svg'
+import solIcon from '../assets/solana-sol-logo.svg'
+import SCIcon from '../assets/smart-contracts.png'
+import vueIcon from '../assets/vue-svgrepo-com.svg'
+import nuxtIcon from '../assets/nuxt-icon-svgrepo-com.svg'
+import angularIcon from '../assets/angular-svgrepo-com.svg'
+import truffleIcon from '../assets/truffle.png'
+import hardhhatIcon from '../assets/hardhat-logo-dark.svg'
 import IconCard from './iconCard';
 
 const Qualifications = () => {
@@ -44,6 +53,19 @@ const Qualifications = () => {
             title: "Next.js",
             image: next
         },
+        {
+            title: "Vue.js",
+            image: vueIcon
+        },
+        {
+            title: "Nuxt.js",
+            image: nuxtIcon
+        },
+        {
+            title: "Angular.js",
+            image: angularIcon
+
+        },
     ]
 
     const backendTechnologies = [
@@ -63,6 +85,41 @@ const Qualifications = () => {
             title: "MongoDB",
             image: mongodb
         }
+    ]
+
+    const blockchainTechnologies = [
+        {
+            title: "Ethereum Blockchain",
+            image: ethIcon
+        },
+        {
+            title: "Solana Blockchain",
+            image: solIcon
+        },
+        {
+            title: "Ton Blockchain",
+            image: tonIcon
+        },
+        {
+            title: "Solidity Language",
+            image: tonIcon
+        },
+        {
+            title: "Tact Language",
+            image: tonIcon
+        },
+        {
+            title: "Token Smart Contract",
+            image: SCIcon
+        },
+        {
+            title: "NFT Smart Contract",
+            image: SCIcon
+        },
+        {
+            title: "Staking Smart Contract",
+            image: SCIcon
+        },
     ]
 
     const otherTools = [
@@ -97,7 +154,15 @@ const Qualifications = () => {
         {
             title: "Graphql",
             image: graphql
-        }
+        },
+        {
+            title: "Truffle",
+            image: truffleIcon
+        },
+        {
+            title: "Hardart",
+            image: hardhhatIcon
+        },
     ]
 
     return (
@@ -138,6 +203,22 @@ const Qualifications = () => {
                         <p>Technologies Used</p>
                         <ul className="mt-3 md:mt-5 flex flex-wrap gap-3 items-center">
                             {backendTechnologies.map((tech, i) =>
+                                <li key={i} className="flex items-center gap-2 select-none"><IconCard src={tech.image}>{tech.title}</IconCard></li>
+                            )}
+                        </ul>
+                    </div>
+                </div>
+            </Card>
+            <Card dataAos="slide-up" className="mt-5">
+                <div>
+                    <div className="flex items-center justify-between">
+                        <h4><span className="font-semibold text-[16px] md:text-[20px]">Blockchain Development (Smart Contracts) -</span> Udemy 2024</h4>
+                        <p className="px-2 py-1 rounded-md bg-[#9410D2] w-fit">Expert</p>
+                    </div>
+                    <div className="mt-4 md:mt-8">
+                        <p>Technologies Used</p>
+                        <ul className="mt-3 md:mt-5 flex flex-wrap gap-3 items-center">
+                            {blockchainTechnologies.map((tech, i) =>
                                 <li key={i} className="flex items-center gap-2 select-none"><IconCard src={tech.image}>{tech.title}</IconCard></li>
                             )}
                         </ul>
