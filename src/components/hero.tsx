@@ -13,7 +13,7 @@ const Hero = () => {
         <div id="about" className="mt-5">
             <Card dataAos="fade" className="">
                 <div><p className="px-2 py-1 rounded-md bg-[#9410D2] w-fit">Hi, I’m</p></div>
-                <p><span className="text-[20px] md:text-[24px] font-bold">Abdullahi Mohammed -</span> <span>A Full-Stack Web Developer</span></p>
+                <p><span className="text-[20px] md:text-[24px] font-bold">Abdullahi Mohammed -</span> <span>A Full-Stack Web and Blockchain Developer</span></p>
                 <p className="mt-1">I am committed to developing high-quality websites that’s responsive from desktop to mobile screens that align with your brand identity, user experience goals and industry standards.</p>
             </Card>
 

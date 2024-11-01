@@ -4,7 +4,8 @@ import wowtouche from '../assets/wowtouche.png'
 import burgerapp from "../assets/burgerapp.png";
 import greencandlestick from "../assets/greencandlestick.png";
 import breej from "../assets/breej.png";
-import mortgage from "../assets//Screenshot (101).png";
+import mortgage from "../assets/Screenshot (101).png";
+import thecreator from "../assets/Screenshot (104).png";
 import plut from "../assets/plut.png";
 
 const Portfolio = () => {
@@ -49,6 +50,13 @@ const Portfolio = () => {
         paragraph: "Plut is a platform for selling giftcards and coins. I helped integrate content management sysytem into this website whiich made it possible for the client to be able to change contents on the website easily.",
         stacks: [{ stack: "React.js" }, { stack: "TypesScript" }, { stack: "Ionic Framework" }, { stack: "Firebase" }],
         links: [{ title: "GitHub: private repo", link: "#" }, { title: "Website", link: "https://plut.ng/" }]
+    },
+    {
+        heading: "The Creator",
+        image: thecreator,
+        paragraph: "The Creator was built as a portfolio showcasing photography and cinematography projects. It makes it easy for clients to experience the creators expertise.",
+        stacks: [{ stack: "Next.js" }, { stack: "TypesScript" }, { stack: "Sanity.js" }, { stack: "TailwindCss" }],
+        links: [{ title: "GitHub: private repo", link: "#" }, { title: "Website", link: "https://www.thecreator.org.uk/" }]
     },
     ]
 
