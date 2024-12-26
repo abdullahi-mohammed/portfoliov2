@@ -8,6 +8,8 @@ import Portfolio from './components/portfolio'
 import Qualifications from './components/qualifications'
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Blog from './components/blog'
+import Testimonials from './components/testimonials'
 
 // import { Link, Element, Events, animateScroll as scroll, scrollSpy } from 'react-scroll';
 
@@ -24,6 +26,8 @@ function App() {
       <Hero />
       <Qualifications />
       <Portfolio />
+      <Blog />
+      <Testimonials />
       <Contact />
       <hr className='mt-10 md:mt-20' />
       <Footer />
