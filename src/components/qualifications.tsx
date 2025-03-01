@@ -60,12 +60,7 @@ const Qualifications = () => {
         {
             title: "Nuxt.js",
             image: nuxtIcon
-        },
-        {
-            title: "Angular.js",
-            image: angularIcon
-
-        },
+        }
     ]
 
     const backendTechnologies = [
