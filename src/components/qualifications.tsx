@@ -21,7 +21,6 @@ import solIcon from '../assets/solana-sol-logo.svg'
 import SCIcon from '../assets/smart-contracts.png'
 import vueIcon from '../assets/vue-svgrepo-com.svg'
 import nuxtIcon from '../assets/nuxt-icon-svgrepo-com.svg'
-import angularIcon from '../assets/angular-svgrepo-com.svg'
 import truffleIcon from '../assets/truffle.png'
 import hardhhatIcon from '../assets/hardhat-logo-dark.svg'
 import IconCard from './iconCard';
@@ -60,12 +59,7 @@ const Qualifications = () => {
         {
             title: "Nuxt.js",
             image: nuxtIcon
-        },
-        {
-            title: "Angular.js",
-            image: angularIcon
-
-        },
+        }
     ]
 
     const backendTechnologies = [
