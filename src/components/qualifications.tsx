@@ -24,7 +24,6 @@ import nuxtIcon from '../assets/nuxt-icon-svgrepo-com.svg'
 import truffleIcon from '../assets/truffle.png'
 import hardhhatIcon from '../assets/hardhat-logo-dark.svg'
 import IconCard from './iconCard';
-import { FaAws, FaCloud, FaDocker } from "react-icons/fa"
 
 const Qualifications = () => {
 
