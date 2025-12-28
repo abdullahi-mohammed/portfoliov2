@@ -10,6 +10,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import Blog from './components/blog'
 import Testimonials from './components/testimonials'
+import Startup from './components/startup'
 
 // import { Link, Element, Events, animateScroll as scroll, scrollSpy } from 'react-scroll';
 
@@ -26,6 +27,7 @@ function App() {
       <Hero />
       <Qualifications />
       <Portfolio />
+      <Startup />
       <Blog />
       <Testimonials />
       <Contact />
