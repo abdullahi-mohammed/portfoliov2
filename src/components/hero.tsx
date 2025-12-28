@@ -12,9 +12,21 @@ const Hero = () => {
 
         <div id="about" className="mt-5">
             <Card dataAos="fade" className="">
-                <div><p className="px-2 py-1 rounded-md bg-[#9410D2] w-fit">Hi, I’m</p></div>
-                <p><span className="text-[20px] md:text-[24px] font-bold">Abdullahi Mohammed -</span> <span>A Full-Stack Web and Blockchain Developer</span></p>
-                <p className="mt-1">I am committed to developing high-quality websites that’s responsive from desktop to mobile screens that align with your brand identity, user experience goals and industry standards.</p>
+                <div>
+                    <p className="px-2 py-1 rounded-md bg-[#9410D2] w-fit">Hi, I’m</p>
+                </div>
+
+                <p>
+                    <span className="text-[20px] md:text-[24px] font-bold">
+                        Abdullahi Mohammed -
+                    </span>
+                    <span> Full-Stack Web & Blockchain Engineer</span>
+                </p>
+
+                <p className="mt-1">
+                    I build and deploy scalable, responsive web applications — from frontend interfaces to backend systems and production infrastructure.
+                </p>
+
             </Card>
 
             <ul className="mt-5 flex flex-col md:flex-row justify-between items-center gap-10">
@@ -25,13 +37,14 @@ const Hero = () => {
                     <Card className="py-8">
                         <p className="px-2 py-1 rounded-md bg-[#9410D2] w-fit mb-1">I will</p>
                         <ul className="list-disc ml-5">
-                            <li>develop a landing page.</li>
-                            <li>develop a custom website.</li>
-                            <li>maintain and optimize website.</li>
-                            <li>develop an e-commerce website.</li>
-                            <li>build a  wix website using wix editor</li>
-                            <li>build wordpress website using elementor</li>
+                            <li>Develop custom full-stack websites.</li>
+                            <li>Build backend APIs and application logic.</li>
+                            <li>Deploy, maintain, and optimize web applications.</li>
+                            <li>Design and develop responsive frontend interfaces.</li>
+                            <li>Deliver websites using Wix and WordPress (Elementor).</li>
+                            <li>Build e-commerce websites with complete checkout flows.</li>
                         </ul>
+
                         <p className="px-2 py-1 rounded-md bg-[#9410D2] w-fit mt-4 mb-4 md:mb-auto
                         ">Send your proposals to</p>
                         <ul className="flex items-center justify-center gap-5">

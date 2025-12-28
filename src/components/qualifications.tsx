@@ -116,6 +116,40 @@ const Qualifications = () => {
         },
     ]
 
+    const devOps = [
+        { title: "Docker (containerization)", image: '' },
+
+        { title: "CI/CD pipelines", image: '' },
+
+        {
+            title: "AWS (EC2, S3, Lambda, Route 53)",
+            image: ''
+        },
+
+        {
+            title: "GCP (Compute Engine, Cloud Storage, Cloud Functions, Cloud DNS)",
+            image: ''
+
+        },
+
+        { title: "Infrastructure as Code (Terraform / CloudFormation)", image: '' },
+
+        { title: "Serverless deployment concepts", image: '' },
+
+        { title: "Environment variables & secrets management", image: '' },
+
+        { title: "Production monitoring & logging", image: '' },
+
+        { title: "Database backups & recovery", image: '' },
+
+        { title: "Git & GitHub (version control)", image: '' },
+
+        { title: "Linux CLI (server management)", image: '' },
+
+        { title: "Nginx (web server / reverse proxy)", image: '' }
+    ];
+
+
     const otherTools = [
         {
             title: "Wordpress",
@@ -214,6 +248,22 @@ const Qualifications = () => {
                         <ul className="mt-3 md:mt-5 flex flex-wrap gap-3 items-center">
                             {blockchainTechnologies.map((tech, i) =>
                                 <li key={i} className="flex items-center gap-2 select-none"><IconCard src={tech.image}>{tech.title}</IconCard></li>
+                            )}
+                        </ul>
+                    </div>
+                </div>
+            </Card>
+            <Card dataAos="slide-up" className="mt-5">
+                <div>
+                    <div className="flex items-center justify-between">
+                        <h4> <span className="font-semibold text-[16px] md:text-[20px]">Development Operations (DevOps) -</span> BootCamp 2025</h4>
+                        <p className="px-2 py-1 rounded-md bg-[#9410D2] w-fit">Expert</p>
+                    </div>
+                    <div className="mt-4 md:mt-8">
+                        <p>Technologies Used</p>
+                        <ul className="mt-3 md:mt-5 flex gap-3 flex-wrap items-center">
+                            {devOps.map((tech, i) =>
+                                <li key={i} className="flex items-center gap-2 select-none"><IconCard src={''}>{tech.image} {tech.title}</IconCard></li>
                             )}
                         </ul>
                     </div>
